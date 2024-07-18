@@ -1,0 +1,91 @@
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-centre {
+    align-items: center;
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.font-bold {
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-pink {
+    color: rgb(13 11 16);
+}
+
+.my-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+/* button{
+    padding: 7px 12px;
+    border:  2px solid white;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(91 35 91);
+    } */
+/* .gyming{
+    width: 295px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 162px;
+    
+    }
+    .gym1{
+        width: 89px;
+        
+        
+        <div class="topright ">
+        <div><img class="gyming justify-centre" src="images/Gym.jpg" alt="Gym image"></div>
+        <div><img class="gym1 justify-centre " src="images/gym1.png" alt=""></div>
+        
+        
+        </div>
+        } */

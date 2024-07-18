@@ -1,0 +1,171 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle {
+        display: block;
+        margin-top: 24px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .topright {
+        width: fit-content
+    }
+
+    .user-image {
+        padding: 2.6rem;
+        margin: 1rem;
+        margin-top: 4rem;
+    }
+
+    .icon-gym1 {
+        display: none;
+
+    }
+
+    .section3 table td {
+        border-bottom: 2px solid black;
+        padding-left: 72px;
+      }
+}
+
+/* .container{
+        background-color: royalblue;
+    } */
+
+
+
+@media (max-width:911px) {
+    .topleft {
+        /* background-color: red; */
+        width: 100%;
+        background-color: #98979b;
+    
+    }
+
+    .topright {
+        max-width: 40vw;
+        margin-left: -40px;
+    }
+
+    .user-image {
+        padding: 1.3rem;
+        padding-right: -3px;
+        margin-left: 37px;
+        width: 15rem;
+        margin-top: 6rem;
+    }
+
+    .section1 H1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .section1 {
+        height: 50vh;
+    }
+
+    .section3 table td {
+        border-bottom: 2px solid black;
+        padding-left: 72px;
+      }
+}
+
+
+@media (max-width:856px) {
+    .section3 {
+        padding: 9px;
+    }
+
+    .contact-us-form-container {
+        text-align: center;
+    }
+
+    .form {
+        padding-right: 53px;
+    }
+    .section3 table td {
+        border-bottom: 2px solid black;
+        padding-left: 67px;
+      }
+
+    /* .container{
+        background-color: royalblue;
+    } */
+}
+
+
+@media (max-width:798px) {
+    .top {
+        flex-direction: column-reverse;
+    }
+    
+    
+.topleft {
+    min-width: 40vw;
+    
+  }
+  .user-image{
+    min-width: 160%;
+    margin-top: 1.8rem;
+    margin-left: 5.1rem;
+}
+
+ 
+  .section1{
+    margin-block-end: 30.5rem;
+    
+  }
+
+  .section1 H1 {
+    font-size: 2.6rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.section1 li {
+  list-style: circle;
+  list-style-position: inside;
+  font-size: 21px;
+}
+
+
+.section3 table td {
+    border-bottom: 2px solid black;
+    padding-left: 63px;
+  }
+.boxes{
+    flex-direction: column;
+}
+
+
+  
+
+/* 
+    .user-image {
+
+        padding: 1.3rem;
+        padding-right: -3px;
+        margin-left: 154px;
+        width: 24rem;
+        margin-top: 1rem;
+
+    }
+
+    .image {
+        max-width: 100vh;
+    } */
+
+
+    /* .topleft{
+        max-width: 100vw;
+    } */
+    /* .topright {
+        max-width: 100vw;
+    } */
+
+    /* .section2{
+    height: auto;
+} */
+
+}
