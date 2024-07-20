@@ -16,24 +16,41 @@
 <body>
     <div class="container mx-auto ">
         <header>
-            <nav class="flex justify-between">
+            <nav class="flex justify-between main-nav">
                 <div class=" font-bold flex items-centre text-pink">AmanFitness</div>
                 <div><img class="flex icon-gym1" src="images/gym1.png" alt="absolute icon-dots"></div>
-                <ul class="navbar flex items-centre font">
+                <ul class="navbar flex items-centre font" id="navbar">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Services">Services</a></li>
                     <li><a href="#ContactUs">Contact Us</a></li>
                     <li><button class="btn">Join Now</button></li>
                 </ul>
-                
-                    <a href="#" class="nav-toggle ">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
-                
+
+                <a href="#" class="nav-toggle " id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+
             </nav>
         </header>
         <main class="min-h-screen " id="Home">
+            <div class="container header-section  flex">
+                <div class=" container header-left  px-2 text-centre">
+                    <H1 class="my-1">The Best Fitness Gym in the Town here</H1>
+                    <ul class="font">
+                        <li>Flexible Membership Plans</li>
+                        <li>Basic and Essential Equipment</li>
+                        <li>Group Fitness Classes</li>
+                        <li>Personal Training and Fitness Assessments</li>
+                        <li>Clean and Safe Environment</li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <img src="images/Gym.jpg" alt="absolute ">
+                </div>
+            </div>
+
+            <!-- 
             <section class="section1">
                 <div class="flex top">
                     <div class="topleft flex justify-centre flex-col px-2">
@@ -49,7 +66,7 @@
                     <div class="topright  ">
                         <div><img class="user-image" src="images/Gym.jpg" alt="absolute icon icon-dots"></div>
                     </div>
-            </section>
+            </section> -->
 
             <section class="section2" id="Services">
                 <h1 class="text-centre mx-2 ">Pricing</h1>
@@ -109,43 +126,43 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-start font-bold">Public</th>
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
                             </tr>
                             <tr>
                                 <th scope="row" class="text-start font-bold">Private</th>
                                 <!-- ye td class="font" lo maine ek sath replace kiya by dot with the helf of ctrl+f -->
                                 <td class="font">-</td class="font">
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
                             </tr>
                         </tbody>
 
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-start font-bold">Permissions</th>
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
                             </tr>
                             <tr>
                                 <th scope="row" class="text-start font-bold">Sharing</th>
                                 <td class="font">-</td class="font">
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
                             </tr>
                             <tr>
                                 <th scope="row" class="text-start font-bold">Unlimited members</th>
                                 <td class="font">-</td class="font">
-                                <td class="font">Yes</svg></td class="font">
-                                <td class="font">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
                             </tr>
                             <tr>
                                 <th scope="row" class="text-start font-bold">Extra security</th>
                                 <td class="font">-</td class="font">
                                 <td class="font">-</td class="font">
-                                <td class="font">Yes</svg></td class="font">
+                                <td class="font font2">Yes</svg></td class="font">
                             </tr>
                         </tbody>
                     </table>
@@ -160,7 +177,7 @@
                     Any Query, Thoughts, Or Just Drop Your Message
                 </h3>
                 <div class="contact-us-form-container ">
-                    <form class="form" >
+                    <form class="form">
                         <div class="formfeild-container">
                             <input class="formfield font " type="text" name="name" id="" placeholder="Enter Your Name">
 
@@ -174,7 +191,7 @@
                                 rows="10" placeholder="Enter your Message here"></textarea>
                         </div>
                         <div>
-                            <button class="btn" id="submit-btn">Send Message <i
+                            <button class="btn send" id="submit-btn">Send Message <i
                                     class=" submit-icon fa-solid fa-paper-plane"></i></button>
                         </div>
                     </form>
@@ -187,7 +204,7 @@
                 <div class="footer-wrapper">
                     <div class="fadedtext">Aman Shrivastav</div>
 
-                   <div>Copyright &copy; AmanFitness.com | All rights reserved</div> 
+                    <div class="copy">Copyright &copy; AmanFitness.com | All rights reserved</div>
                     <div class="icons">
                         <a href="https://www.linkedin.com/in/aman-shrivastav-607307280"><i
                                 class="fa-brands fa-linkedin icon"></i></a>
@@ -201,6 +218,16 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navlinks = document.getElementById('navbar');
+
+        toggleButton.addEventListener('click', () => {
+            navlinks.classList.toggle('active');
+        }
+        )
+    </script>
 </body>
 
 </html>
